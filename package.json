@@ -1,0 +1,41 @@
+{
+  "name": "full_stack_react",
+  "version": "1.0.0",
+  "description": "Full stack React by Madhav Bist",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistmadhav/Full_Stack_React_First.git"
+  },
+  "author": "Madhav Bist",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bistmadhav/Full_Stack_React_First/issues"
+  },
+  "homepage": "https://github.com/bistmadhav/Full_Stack_React_First#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mangodb": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.x",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.6",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
+  }
+}
